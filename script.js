@@ -1,4 +1,4 @@
-const apiKey = 'c0c131a463483ec3eb7a57ca10f52ea2';
+const apiKey = 'YOUR_API_KEY'; //Replace with your OpenWeatherMap API key
 
 let utterance; // Declare a variable to hold the SpeechSynthesisUtterance
 
