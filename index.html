@@ -11,12 +11,10 @@
         <h1>Weather Forecast</h1>
         <input type="text" id="cityInput" placeholder="Enter city name">
         <button onclick="getWeather()">Get Weather</button>
-        <div id="weatherInfo">
-            <h2 id="city"></h2>
-            <p id="description"></p>
-            <p id="temperature"></p>
-            <p id="humidity"></p>
-        </div>
+        <button onclick="startVoiceRecognition()">🎤 Speak City</button>
+        <button onclick="stopSpeech()">⏹️ Stop Speaking</button>
+        <div id="currentWeather"></div>
+        <div id="forecast"></div>
     </div>
     <script src="script.js"></script>
 </body>
